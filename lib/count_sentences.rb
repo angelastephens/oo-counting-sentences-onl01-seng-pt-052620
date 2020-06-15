@@ -28,6 +28,7 @@ class String
   end
 
   def count_sentences
-    self.count
+    self.each do ||
+      binding.pry
   end
 end
