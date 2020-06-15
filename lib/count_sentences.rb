@@ -29,7 +29,7 @@ class String
 
   def count_sentences
     new=self.split
-    (.?!)
+    (.,?!)
      return new.length
   end
 end
